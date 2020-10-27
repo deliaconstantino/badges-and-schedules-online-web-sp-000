@@ -16,7 +16,7 @@ def printer(attendees)
   name_phrase.each do |phrase|
     puts phrase
 
-  room
+  
   end
 
 end
