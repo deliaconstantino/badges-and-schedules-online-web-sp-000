@@ -12,9 +12,11 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  names = batch_badge_creator(attendees)
-  names.each do |phrase|
+  name_phrase = batch_badge_creator(attendees)
+  name_phrase.each do |phrase|
     puts phrase
+
+  room
   end
-  
+
 end
