@@ -12,7 +12,7 @@ end
 
 def assign_rooms(attendees)
   count = 1
-  room_assigment_array = []
+  room_assignment_array = []
   attendees.each do |name|
     room_assignment_array.push("Hello, #{name}! You'll be assigned to room #{count}!")
     count +=1
