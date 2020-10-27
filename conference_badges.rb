@@ -15,8 +15,10 @@ def printer(attendees)
   name_phrase = batch_badge_creator(attendees)
   name_phrase.each do |phrase|
     puts phrase
-
-  
   end
 
+  room_phrase = assign_rooms(attendees)
+  room_phrase.each do |phrase_two|
+    puts phrase_two
+  end
 end
