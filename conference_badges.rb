@@ -9,4 +9,3 @@ end
 def assign_rooms(attendees)
   attendees.map.with_index{|name, i| "Hello, #{name}! You'll be assigned to room #{i + 1}!"}
 end
-
